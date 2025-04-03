@@ -1,0 +1,11 @@
+pyspark
+pandas==2.1.4 
+delta-spark==3.1.0  # For Delta Lake support (if needed)
+pyarrow==14.0.0  # Required for efficient data handling
+numpy==1.26.2  # Numerical operations
+matplotlib==3.8.2  # Data visualization
+seaborn==0.13.0  # Statistical data visualization
+scikit-learn==1.3.2  # Machine learning models & preprocessing
+mlflow==2.9.2  # Experiment tracking (optional)
+koalas==1.8.2  # Pandas-like syntax for PySpark (deprecated but useful)
+openpyxl==3.1.2  # Excel file handling
